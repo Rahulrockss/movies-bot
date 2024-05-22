@@ -4,7 +4,7 @@ from queue import Queue
 import requests
 from flask import Flask, request
 from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler, Dispatcher
+from telegram.ext import CommandHandler, MessageHandler, filters, CallbackQueryHandler, Dispatcher
 from movies_scraper import search_movies, get_movie
 
 
